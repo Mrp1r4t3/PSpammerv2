@@ -1,13 +1,14 @@
 # Modules
-import threading, requests, random, time
-from asyncore import loop
+import threading, requests, random, time, asyncore, os
+
+os.system('cmd /c "pip install r- req.txt"')
 
 # Data For Fake Account And Password Generator So It Will Make The Sended Data Legit And Get Accepted Even If They Have A Filter.
-MAIL_Var = ["sharon","richard","justin","ella","jungcock","hashimin","bulsheesh","scandalors","melody","acker","jhony","lexie","khalifa","stephen","dorota","georgeta","krystiana","gerbold","iona"]
-MAIL1_Var = ["communication","help","gaming","assistant","trinity","sponsor","love_you","sexlife","cum","mukbangs","assistant","support","info","work","school","help","care","random"]
-MAIL2_Var = ["gmail","outlook","me","yahoo","pornhub","microsoft","youtube","pornhub","brazzers","google","hotmail","insta","facebook"]
+MAIL_Var = ["sharon","richard","justin","ella","jungcock","hashimin","bulsheesh","scandalors","melody","acker","jhony","lexie","khalifa","stephen","dorota","georgeta","krystiana","gerbold","iona","lore","surprize","dog","admin","cat","shermin"]
+MAIL1_Var = ["communication","help","gaming","assistant","trinity","sponsor","love_you","sexlife","cum","mukbangs","assistant","support","info","work","school","help","care","random","admin","moderator","adm","mod"]
+MAIL2_Var = ["gmail","outlook","me","yahoo","pornhub","microsoft","youtube","pornhub","brazzers","google","hotmail","insta","facebook","msn","gore","freebrazzers","cummingbitch","sexymilf","motherfuckingduck","yourmomishot"]
 MAIL3_Var = ["-","_",".",""]
-PASSWORD_Var = ["123456789","987654321","090807060504030201","Dragon","1111111111","Sheesh123","spam6912345","ILOVEYOU","WELOVEEARTH","08112233445","GetReadyWeAreHavingFun","ILOVEPORN691298","636564636261Memak","loveLetter","Qwerty123","qwertyuopasdfghjklzxcvbnm","GYGAUBCDUSVBXJAISHI","Hentailover69","hewdvxbsxhjksbdsbohedf","wteruyegabzkxchh","qwertyuiopasdfghjklzxcvbnm"]
+PASSWORD_Var = ["123456789","987654321","090807060504030201","Dragon","Cat","Dog","Fury","1111111111","Sheesh123","spam6912345","ILOVEYOU","WELOVEEARTH","08112233445","GetReadyWeAreHavingFun","ILOVEPORN691298","636564636261Memak","loveLetter","Qwerty123","qwertyuopasdfghjklzxcvbnm","GYGAUBCDUSVBXJAISHI","Hentailover69","hewdvxbsxhjksbdsbohedf","wteruyegabzkxchh","qwertyuiopasdfghjklzxcvbnm","ABCDEFGHILKLMNOPQRSTUVWXYZ","abcdefghijklmnopqrstuvwxyz","Yes_Daddy_Give_Me_Your_Seed","I Love You Shermin","Walang Tayo Bitch","Mamamo blue69","ilikeporn","she_sucked_my_dick","ilikecock"]
 
 #Logo
 LOGO = """\033[1;31;40m██████\033[1;32;40m╗░░\033[1;31;40m██████\033[1;32;40m╗██████╗░░█████╗░███╗░░░███╗███╗░░░███╗███████╗\033[1;34;40m██████\033[1;32;40m╗░
@@ -27,7 +28,7 @@ T1 = 0.50
 print(LOGO)
 print(LOGO1)
 time.sleep(T)
-print("(Please Don't Mind The Error On Import If You See It. This Script Need That Module Even It Is Deprecated)\n")
+print("(Please Don't Mind The Error On Import If You See It. This Script Need That Module Even It Is Deprecated. That will be fixed in the future updates)\n")
 time.sleep(T)
 print("""\033[1;34;40m[?] \033[1;37;40mPlease Choose Your Selection To Start:
 \033[1;32;40m[01] \033[1;37;40mStart
@@ -66,18 +67,19 @@ if S == "1" or S == "01":
     
     # Threading so it will spam the phishing site effectively
     threads = []
-    for i in range(50):
+    for i in range(70):
         t = threading.Thread(target=SP)
         t.daemon = True
         threads.append(t)
-    for i in range(50):
+    for i in range(70):
         threads[i].start()
-    for i in range(50):
+    for i in range(70):
         threads[i].join()
-    loop()
-    loop()
-    loop()
-
+    
+    asyncore.loop()
+    asyncore.loop()
+    asyncore.loop()
+    
     print("\033[1;31;40m[X] \033[1;37;40mIf You Are Reading This... Either Your Link/Boxes That You Entered Are Incorrect Or Either You Are Offline Or The Site Itself.")
     print("\033[1;34;40m[-_-] \033[1;37;40mSo... Basically, The Script Just Stop Working. Because Of You... Nahhh Joke. K Bye Have A Nice Day")
     print("\033[1;34;40m[*] \033[1;33;40mExiting Script...")
@@ -110,7 +112,7 @@ Notes Before You Run This Script:
         Like Google And Facebook.
     - This Can Cause Lag On Your Device While It Is Running.
         Make Sure Your Phone Has Atleast 2GB 
-        So This Script Will Not Cause On Your Device
+        So This Script Will Not Cause Lags On Your Device
     - This Tool Can Be Tricky To Non Geek Peoples.
     - If You Have Discovered Some Bug, Please Try To Report It On Us.
     - Want To Suggest A Feature On This Script?
@@ -138,12 +140,12 @@ They Will Assist You On How To Use This Script.)
 ========================================================================
 - To My Fellow Hackers Or Who Will Try To Reverse Engineer This Script:
 ========================================================================
-You Can Do Whatever You Want On My Code "With Or Without Credits", 
+You Can Do Whatever You Want On My Code "With Proper Credits", 
 I Can Assist You If You Want. I Created This Code So People Can Modify
 It Freely. Im Dead Serious... XD
 
 Also Please Join Our Fb Group, We Want Like You Aspiring Hackers To Be 
-Part Of Us. So... See You there :)
+Part Of Us. So... See You There :)
 ------------------------------------------------------------------------
 \n""")
     print("\033[1;34;40m[*] \033[1;33;40mExiting Script...")
@@ -164,4 +166,4 @@ else:
 # Join Our FB Group: https://www.facebook.com/groups/1778790372291663
 
 
-# 8===================D- - __ _                                                                         (Just Random Dick Jokes.... Don't Mind This.... XD)
+# 8===================D- - __ _                                                                         (Just A Random Dick Joke.... Don't Mind This.... XD)
